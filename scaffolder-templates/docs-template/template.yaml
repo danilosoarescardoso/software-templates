@@ -2,29 +2,31 @@ apiVersion: backstage.io/v1beta2
 kind: Template
 metadata:
   name: docs-template
-  title: Template de Documentação
-  description: Criar um novo projeto de documentação
+  title: Documentation Template
+  description: Create a new standalone documentation project
   tags:
-    - documentacao
+    - recommended
+    - techdocs
+    - mkdocs
 spec:
   owner: backstage/techdocs-core
   type: documentation
 
   parameters:
-    - title: Preencha os próximos campos
+    - title: Fill in some steps
       required:
-        - nome
-        - descricao
+        - name
+        - description
       properties:
-        nome:
-          title: Nome
+        name:
+          title: Name
           type: string
           description: Unique name of the component
           ui:autofocus: true
           ui:options:
             rows: 5
-        descricao:
-          title: Descrição
+        description:
+          title: Description
           type: string
           description: A description for the component
           ui:options:
@@ -37,7 +39,7 @@ spec:
           ui:options:
             allowedKinds:
               - Group
-    - title: Escolhe uma localização
+    - title: Choose a location
       required:
         - repoUrl
       properties:
