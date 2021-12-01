@@ -17,14 +17,14 @@ spec:
         - description
       properties:
         name:
-          title: Name
+          title: Nome
           type: string
           description: Nome único para o componente
           ui:autofocus: true
           ui:options:
             rows: 5
         description:
-          title: Description
+          title: Descrição
           type: string
           description: Uma breve descrição para o item de documentação
           ui:options:
