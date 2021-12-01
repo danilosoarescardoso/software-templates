@@ -5,12 +5,10 @@ metadata:
   title: Template de Documentação
   description: Criar um novo item simples de documentação
   tags:
-    - recommended
     - techdocs
-    - mkdocs
 spec:
   owner: backstage/techdocs-core
-  type: documentation
+  type: documentação
 
   parameters:
     - title: Preencha os campos abaixo
