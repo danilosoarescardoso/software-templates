@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1beta2
 kind: Template
 metadata:
   name: docs-template
-  title: Documentation Template
+  title: Template de Documentação
   description: Criar um novo item simples de documentação
   tags:
     - recommended
