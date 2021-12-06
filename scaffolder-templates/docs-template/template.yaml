@@ -14,15 +14,22 @@ spec:
     - title: Preencha os campos abaixo
       required:
         - name
+        - title
         - description
       properties:
         name:
-          title: Nome
+          title: ID único
           type: string
-          description: Nome único para o componente
+          description: ID único para o componente
           ui:autofocus: true
           ui:options:
             rows: 5
+        title:
+          title: Nome
+          type: string
+          description: Nome único para o componente
+          ui:options:
+            rows: 15
         description:
           title: Descrição
           type: string
