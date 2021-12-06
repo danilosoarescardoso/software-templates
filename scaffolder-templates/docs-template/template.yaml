@@ -67,6 +67,7 @@ spec:
         url: ./skeleton
         values:
           name: "{{ parameters.name }}"
+          title: "{{ parameters.title }}"
           description: "{{ parameters.description }}"
           destination: "{{ parseRepoUrl parameters.repoUrl }}"
           owner: "{{ parameters.owner }}"
